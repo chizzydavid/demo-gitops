@@ -13,8 +13,8 @@ image:
   tag: "latest"
 
 imagePullSecrets: []
-nameOverride: ""
-fullnameOverride: ""
+nameOverride: "demo-chart"
+fullnameOverride: "demo-chart-app"
 
 serviceAccount:
   # Specifies whether a service account should be created
